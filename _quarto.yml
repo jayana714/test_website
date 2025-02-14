@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "My Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Tools"
+      - menu:
+            - href: https://quarto.org/docs/websites/
+              text: "quarto docs"
+              
+ 
+    right: 
+      - href: about.qmd
+        text: "about"
+        icon: github
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
